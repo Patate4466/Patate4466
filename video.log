@@ -1,0 +1,66 @@
+--------- beginning of system
+--------- beginning of main
+04-16 16:35:40.185 20238 20761 I ACodec  :  [] Now uninitialized
+04-16 16:35:40.188 20238 20836 I ACodec  : [] onAllocateComponent
+04-16 16:35:40.619 20238 20836 I ACodec  : [OMX.qcom.video.decoder.avc] Now Loaded
+04-16 16:35:40.636 20238 20835 D SurfaceUtils: connecting to surface 0xa89be808, reason connectToSurface
+04-16 16:35:40.636 20238 20835 I MediaCodec: [OMX.qcom.video.decoder.avc] setting surface generation to 20723713
+04-16 16:35:40.636 20238 20835 D SurfaceUtils: disconnecting from surface 0xa89be808, reason connectToSurface(reconnect)
+04-16 16:35:40.636 20238 20835 D SurfaceUtils: connecting to surface 0xa89be808, reason connectToSurface(reconnect)
+04-16 16:35:40.642 20238 20836 I ACodec  : app-pid(20238)
+04-16 16:35:40.644 20238 20836 I ACodec  : [OMX.qcom.video.decoder.avc] OMX_QCOM_FramePacking_OnlyOneCompleteFrame is setting
+04-16 16:35:40.644 20238 20836 I ACodec  : Success to set FramePackingMode
+04-16 16:35:40.659 20238 20836 I ACodec  : packageName : com.reddit.frontpage
+04-16 16:35:40.676 20238 20836 I ACodec  : [OMX.qcom.video.decoder.avc] Now Loaded->Idle
+04-16 16:35:40.763 20238 20836 I ACodec  : setupNativeWindowSizeFormatAndUsage - gralloc_usage_priv_uncached off
+04-16 16:35:40.763 20238 20836 D SurfaceUtils: set up nativeWindow 0xa89be808 for 720x1280, color 0x7fa30c06, rotation 0, usage 0x402900
+04-16 16:35:40.764 20238 20836 I ACodec  : [OMX.qcom.video.decoder.avc] configureOutputBuffersFromNativeWindow setBufferCount : 23, minUndequeuedBuffers : 5
+04-16 16:35:40.793 20238 20835 I MediaCodec: setCodecState state : 0
+04-16 16:35:40.796 20238 20836 I ACodec  : [OMX.qcom.video.decoder.avc] Now Idle->Executing
+04-16 16:35:40.801 20238 20836 I ACodec  : [OMX.qcom.video.decoder.avc] Now Executing
+04-16 16:35:40.801 20238 20836 I ACodec  : [OMX.qcom.video.decoder.avc] calling emptyBuffer 1 w/ codec specific data, size : 31
+04-16 16:35:40.843 20238 20836 I ACodec  : [OMX.qcom.video.decoder.avc] calling emptyBuffer 2 w/ codec specific data, size : 9
+04-16 16:35:40.957 20238 20836 I ACodec  : [OMX.qcom.video.decoder.avc] Now handling output port settings change
+04-16 16:35:40.969 20238 20836 I ACodec  : setupNativeWindowSizeFormatAndUsage - gralloc_usage_priv_uncached off
+04-16 16:35:40.969 20238 20836 D SurfaceUtils: set up nativeWindow 0xa89be808 for 720x1280, color 0x7fa30c06, rotation 0, usage 0x402900
+04-16 16:35:40.971 20238 20836 I ACodec  : [OMX.qcom.video.decoder.avc] configureOutputBuffersFromNativeWindow setBufferCount : 11, minUndequeuedBuffers : 5
+04-16 16:35:40.983 20238 20836 I ACodec  : [OMX.qcom.video.decoder.avc] Now Executing
+04-16 16:35:41.675 20238 20836 I ACodec  : [OMX.qcom.video.decoder.avc] OMX_EventPortSettingsChanged 0x7f000062
+04-16 16:35:41.794 20238 20835 I MediaCodec: setCodecState state : 0
+04-16 16:35:41.847 20238 20761 D AudioTrack: setVolume(0.000000, 0.000000) pid : 20238
+04-16 16:35:41.867 20238 20835 I MediaCodec: setCodecState state : 1
+04-16 16:35:42.075 20238 20761 D AudioTrack: getTimestamp_l(512): device stall time corrected using current time 62393043397186
+04-16 16:35:42.095 20238 20761 W AudioTrack: getTimestamp_l(512): retrograde timestamp time corrected, 62393052481249 < 62393053399738
+04-16 16:35:46.625 20238 20835 D SurfaceUtils: connecting to surface 0xbdeb6408, reason connectToSurface
+04-16 16:35:46.627 20238 20835 I MediaCodec: [OMX.qcom.video.decoder.avc] setting surface generation to 20723714
+04-16 16:35:46.627 20238 20835 D SurfaceUtils: disconnecting from surface 0xbdeb6408, reason connectToSurface(reconnect)
+04-16 16:35:46.627 20238 20835 D SurfaceUtils: connecting to surface 0xbdeb6408, reason connectToSurface(reconnect)
+04-16 16:35:46.632 20238 20836 I ACodec  : setupNativeWindowSizeFormatAndUsage - gralloc_usage_priv_uncached off
+04-16 16:35:46.632 20238 20836 D SurfaceUtils: set up nativeWindow 0xbdeb6408 for 720x1280, color 0x7fa30c06, rotation 0, usage 0x402900
+04-16 16:35:46.632 20238 20835 D SurfaceUtils: disconnecting from surface 0xa89be808, reason disconnectFromSurface
+04-16 16:35:47.869 20238 20835 I MediaCodec: setCodecState state : 0
+04-16 16:35:50.526 20238 20835 D SurfaceUtils: connecting to surface 0xae986008, reason connectToSurface
+04-16 16:35:50.527 20238 20835 I MediaCodec: [OMX.qcom.video.decoder.avc] setting surface generation to 20723715
+04-16 16:35:50.527 20238 20835 D SurfaceUtils: disconnecting from surface 0xae986008, reason connectToSurface(reconnect)
+04-16 16:35:50.527 20238 20835 D SurfaceUtils: connecting to surface 0xae986008, reason connectToSurface(reconnect)
+04-16 16:35:50.533 20238 20836 I ACodec  : setupNativeWindowSizeFormatAndUsage - gralloc_usage_priv_uncached off
+04-16 16:35:50.534 20238 20836 D SurfaceUtils: set up nativeWindow 0xae986008 for 720x1280, color 0x7fa30c06, rotation 0, usage 0x402900
+04-16 16:35:50.534 20238 20835 D SurfaceUtils: disconnecting from surface 0xbdeb6408, reason disconnectFromSurface
+04-16 16:35:50.535 20238 20835 I MediaCodec: setCodecState state : 1
+04-16 16:35:50.690 20238 20761 D AudioTrack: getTimestamp_l(512): device stall time corrected using current time 62401658676922
+04-16 16:35:50.732 20238 20835 I ACodec  : [OMX.qcom.video.decoder.avc] signalFlush
+04-16 16:35:50.732 20238 20836 I ACodec  : [OMX.qcom.video.decoder.avc] ExecutingState flushing now (codec owns 1/4 input, 3/11 output).
+04-16 16:35:50.740 20238 20836 I ACodec  : [OMX.qcom.video.decoder.avc] Now Flushing
+04-16 16:35:50.744 20238 20836 I ACodec  : [OMX.qcom.video.decoder.avc] FlushingState onOMXEvent(0,1,1)
+04-16 16:35:50.744 20238 20836 I ACodec  : [OMX.qcom.video.decoder.avc] FlushingState onOMXEvent(0,1,0)
+04-16 16:35:50.744 20238 20836 I ACodec  : [OMX.qcom.video.decoder.avc] Now Executing
+04-16 16:35:50.959 20238 20761 D AudioTrack: setVolume(0.000000, 0.000000) pid : 20238
+04-16 16:35:51.177 20238 20761 D AudioTrack: getTimestamp_l(513): device stall time corrected using current time 62402145553276
+04-16 16:35:53.475 20238 20835 D SurfaceUtils: connecting to surface 0xbdeb6408, reason connectToSurface
+04-16 16:35:53.475 20238 20835 I MediaCodec: [OMX.qcom.video.decoder.avc] setting surface generation to 20723716
+04-16 16:35:53.475 20238 20835 D SurfaceUtils: disconnecting from surface 0xbdeb6408, reason connectToSurface(reconnect)
+04-16 16:35:53.475 20238 20835 D SurfaceUtils: connecting to surface 0xbdeb6408, reason connectToSurface(reconnect)
+04-16 16:35:53.476 20238 20836 I ACodec  : setupNativeWindowSizeFormatAndUsage - gralloc_usage_priv_uncached off
+04-16 16:35:53.476 20238 20836 D SurfaceUtils: set up nativeWindow 0xbdeb6408 for 720x1280, color 0x7fa30c06, rotation 0, usage 0x402900
+04-16 16:35:53.476 20238 20835 D SurfaceUtils: disconnecting from surface 0xae986008, reason disconnectFromSurface
+04-16 16:35:54.537 20238 20835 I MediaCodec: setCodecState state : 0
